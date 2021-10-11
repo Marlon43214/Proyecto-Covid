@@ -28,7 +28,7 @@ public class Ventana_listados extends JFrame{
         setVisible(true);
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         setLocationRelativeTo(null);
-        setTitle("JDJ Covidapp");
+        setTitle("Coding cube-covid");
     }
 
     private void createUIComponents() {

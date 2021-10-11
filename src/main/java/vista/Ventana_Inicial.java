@@ -39,7 +39,7 @@ public class Ventana_Inicial extends JFrame {
         setResizable(false); // No maximizar ni Minimizar
         setLocationRelativeTo(null); // ubicación en el centro
         setVisible(true); // visible la ventana
-        setTitle("JDJ Covidapp"); // poner titulo
+        setTitle("Coding cube-covid"); // poner titulo
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); // terminar proceso con la x
         this.setVisible(true);
 

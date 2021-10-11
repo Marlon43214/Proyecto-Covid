@@ -59,7 +59,7 @@ public class Controlador_prin{
             int seleccion = JOptionPane.showOptionDialog(
                     null,
                     "¿ Que desea hacer ?",
-                    "JDJ Covidapp",
+                    "Coding cube-covid",
                     JOptionPane.YES_NO_CANCEL_OPTION,
                     JOptionPane.QUESTION_MESSAGE,
                     null,    // null para icono por defecto.
@@ -68,7 +68,7 @@ public class Controlador_prin{
                 JOptionPane.showMessageDialog(null,"Está usted conciente de que al aplicar la primera vacuna se debe garantizar la aplicación del refuerzo unicamente," +
                         "\n 15 dias posteriores a la primera vacuna, no se podrá aplazar o modificar la segunda fecha, por ende" +
                         "\n se compromete a asistir obligatoriamente a los 15 dias de la primera aplicada posterior a estas " +
-                        "\n debe estar en alerta de sus reacciones y en caso de efectos secundarios vaya a su medico mas cercano ","JDJ Covidapp",JOptionPane.INFORMATION_MESSAGE);
+                        "\n debe estar en alerta de sus reacciones y en caso de efectos secundarios vaya a su medico mas cercano ","Coding cube-covid",JOptionPane.INFORMATION_MESSAGE);
                 Ventana_crearPlan view = new Ventana_crearPlan();
                 modelo_planVac model = new modelo_planVac();
                 new Controlador_Plan_vacunas(view,model,view_prin);

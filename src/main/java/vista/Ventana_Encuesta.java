@@ -59,7 +59,7 @@ public class Ventana_Encuesta extends JFrame {
         this.setResizable(false); // No maximizar ni Minimizar
         this.setLocationRelativeTo(null); // ubicación en el centro
         this.setVisible(true); // visible la ventana
-        this.setTitle("CovidVac Aplha 0.1"); // poner titulo
+        this.setTitle("Coding cube-covid"); // poner titulo
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); // terminar proceso con la x
 
 

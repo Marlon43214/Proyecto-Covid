@@ -16,7 +16,7 @@ public class modelo_principal extends conector{
     public void add_vacunas(int CantidadAgregar){
         //JOptionPane.showMessageDialog(null,""+Vac_actuales);
         if (CantidadAgregar <= 0){
-            JOptionPane.showMessageDialog(null,"Error al agregar vacunas","JDJ Covidapp",JOptionPane.ERROR_MESSAGE);
+            JOptionPane.showMessageDialog(null,"Error al agregar vacunas","Coding cube-covid",JOptionPane.ERROR_MESSAGE);
         }else {
             try {
                 PreparedStatement ps = null;
@@ -52,7 +52,7 @@ public class modelo_principal extends conector{
 
     public void remove_vacunas(int CantidadQuitar){
         if (CantidadQuitar <= 0){
-            JOptionPane.showMessageDialog(null,"Error al quitar vacunas","JDJ Covidapp",JOptionPane.ERROR_MESSAGE);
+            JOptionPane.showMessageDialog(null,"Error al quitar vacunas","Coding cube-covid",JOptionPane.ERROR_MESSAGE);
         }else {
             try {
                 PreparedStatement ps = null;
@@ -63,13 +63,13 @@ public class modelo_principal extends conector{
                 if (rs.next()) {
                     Vac_actuales = rs.getInt("NumeroVacunas");
                 } else {
-                    JOptionPane.showMessageDialog(null,"Error al encontrar vacunas","JDJ Covidapp",JOptionPane.ERROR_MESSAGE);
+                    JOptionPane.showMessageDialog(null,"Error al encontrar vacunas","Coding cube-covid",JOptionPane.ERROR_MESSAGE);
                 }
             } catch (SQLException a) {
                 a.printStackTrace();
             }
             if(Vac_actuales < CantidadQuitar){
-                JOptionPane.showMessageDialog(null,"Error al quitar vacunas","JDJ Covidapp",JOptionPane.ERROR_MESSAGE);
+                JOptionPane.showMessageDialog(null,"Error al quitar vacunas","Coding cube-covid",JOptionPane.ERROR_MESSAGE);
             }else {
                 try {
                     PreparedStatement ps = null;

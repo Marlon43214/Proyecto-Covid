@@ -151,10 +151,10 @@ public class Modelo_vacunar extends conector {
 
                 if(rs.next()){
                     if(rs.getString(1).equals("Vacunado Dosis 1")){
-                        JOptionPane.showMessageDialog(null,"Error ya vacunado de primera dosis","JDJ Covidapp",JOptionPane.ERROR_MESSAGE);
+                        JOptionPane.showMessageDialog(null,"Error ya vacunado de primera dosis","Coding cube-covid",JOptionPane.ERROR_MESSAGE);
                         verificador = false;
                     }else if (rs.getString(1).equals("Vacunado Dosis 2")){
-                        JOptionPane.showMessageDialog(null,"Error ya vacunado de segunda dosis","JDJ Covidapp",JOptionPane.ERROR_MESSAGE);
+                        JOptionPane.showMessageDialog(null,"Error ya vacunado de segunda dosis","Coding cube-covid",JOptionPane.ERROR_MESSAGE);
                         verificador = false;
                     }else if (rs.getString(1).equals("No vacunado")){
                         verificador = true;
