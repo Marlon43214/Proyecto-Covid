@@ -9,6 +9,7 @@ import vista.Ventana_Inicial;
 
 public class Interfaz_Covid {
     public static void main(String[] args){
+
         Ventana_Inicial inicio = new Ventana_Inicial();
         modelo_principal model = new modelo_principal();
         personas per = new personas();
