@@ -44,7 +44,7 @@ public class modelo_principal extends conector{
                 rs = ps.executeQuery();
                 nuevo = "Cantidad de vacunas es: " + rs.getInt("NumeroVacunas");
             } catch (SQLException b) {
-                b.printStackTrace();
+            //    b.printStackTrace();
             }
         }
 
